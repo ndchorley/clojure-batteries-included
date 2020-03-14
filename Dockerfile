@@ -10,4 +10,4 @@ RUN lein deps
 
 EXPOSE $PORT
 
-CMD lein repl :start :port $PORT
+CMD lein repl :headless :host 0.0.0.0 :port $PORT

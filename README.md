@@ -6,9 +6,5 @@ the JSON it returns and don't want the hassle of having to set up a project.
 
 ## Using it
 
-Run `build.sh` to build the image, which will then be accessible locally using the name
-`clojure-batteries-included`. You can then create a container, with e.g.
-
-```
-docker run -it --rm clojure-batteries-included
-```
+To build the image and start an nREPL server, run `docker-compose up`. The
+server will be accessible at `localhost:50001` for connection in Emacs, etc.
