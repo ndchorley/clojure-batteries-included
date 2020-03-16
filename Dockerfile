@@ -1,12 +1,12 @@
 FROM clojure:openjdk-14-lein-2.9.1
 
-ENV PORT 50001
-
 COPY project.clj /work/project.clj
 
 WORKDIR /work
 
 RUN lein deps
+
+ENV PORT 50001
 
 EXPOSE $PORT
 
