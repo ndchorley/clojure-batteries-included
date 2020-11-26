@@ -4,4 +4,4 @@
                  [clj-http "3.10.1"]
                  [com.novemberain/langohr "5.1.0"]
                  [org.clojure/core.async "1.1.587"]]
-  :plugins [[cider/cider-nrepl "0.24.0"]])
+  :plugins [[cider/cider-nrepl "0.25.5"]])
