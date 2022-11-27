@@ -1,4 +1,4 @@
-FROM clojure:openjdk-16-lein-2.9.6
+FROM clojure:lein-2.9.10
 
 COPY project.clj /work/project.clj
 
