@@ -1,4 +1,4 @@
-FROM clojure:lein-2.9.10
+FROM clojure:lein-2.10.0
 
 COPY project.clj /work/project.clj
 
